@@ -2,11 +2,11 @@
 
 using namespace std;
 
-void test(int array[], int size) {
+void test01(int array[], int size) {
 	array[0] = 10;
 	*(array + 0) = 10;
 }
-void test(int* array, int size) {
+void test02(int* array, int size) {
 	array[0] = 10;
 	*(array + 0) = 10;
 }
